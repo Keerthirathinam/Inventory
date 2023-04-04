@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Inventory</title>
+    <link rel="stylesheet" href="./Inventory.css">
+</head>
+
+<body>
+	<div class="div1">
+		<label>Firstname</label>
+		<input type="text" name="firstname" id="firstname" /><br>
+		<label>Lastname</label>
+		<input type="text" name="lastname" id="lastname" /><br/>
+		<label>Email</label>
+		<input type="email" name="email" id="email" /><br/>
+		<label>Phone</label>
+		<input type="number" name="phone" id="phone" /><br/>
+		<input type="button" name="data_submit" id="data_submit" value="Click" onclick="add_data()" /><br>
+
+
+		<label>Firstname</label>
+		<input type="text" name="firstname1" id="firstname1" /><br>
+		<label>Id</label>
+		<input type="text" name="id1" id="id1" /><br>
+		<label>Lastname</label>
+		<input type="text" name="lastname1" id="lastname1" /><br/>
+		<label>Email</label>
+		<input type="email" name="email1" id="email1" /><br/>
+		<label>Phone</label>
+		<input type="number" name="phone1" id="phone1" /><br/>
+		<input type="button" name="data_submit1" id="data_submit1" value="Click" onclick="add_data1()" />
+
+	</div>
+	<div id="div2">
+
+	</div>
+	
+	<div id="div3">
+		<table width="100%" border="1">
+			<thead>
+				<tr>
+					<th>Firstname</th>
+					<th>Lastname</th>
+					<th>Email</th>
+					<th>Phone</th>
+					<th>Action</th>
+				</tr>
+			</thead>
+			<tbody id="table_dis"></tbody>
+		</table><br>
+		<input type="button" value="download" onclick="data_down()">
+	</div>
+
+	<script src="./Inventory.js"></script>
+
+</body>
+
+</html>

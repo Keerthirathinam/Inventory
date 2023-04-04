@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.div1 {
+    width: 33%;
+    float: left;
+    border: 1px solid #ccc;
+    min-height: 100vh;
+}
+
+#div2 {
+    width: 33%;
+    float: left;
+    border: 1px solid #ccc;
+    min-height: 100vh;
+    overflow-y: auto;
+}
+
+#div3 {
+    width: 33%;
+    float: left;
+    border: 1px solid #ccc;
+    min-height: 100vh;
+}
